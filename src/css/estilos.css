@@ -107,19 +107,19 @@ body {
 }
 
 .botoes-carrossel .beekeeper {
-    background-image: url(../imagens/ThumbBeekeeperSkin.webp)
+    background-image: url(../imagens/Singed_BeekeeperSkin.webp);
 }
 
 .botoes-carrossel .blackscourge {
-    background-image: url(../imagens/ThumbBlackScourgeSkin.webp)
+    background-image: url(../imagens/ThumbBlackScourgeSkin.webp);
 }
 
 .botoes-carrossel .resistance {
-    background-image: url(../imagens/ThumbResistance.webp)
+    background-image: url(../imagens/ThumbResistance.webp);
 }
 
 .botoes-carrossel .surfer {
-    background-image: url(../imagens/ThumbSurferSkin.webp)
+    background-image: url(../imagens/ThumbSurferSkin.webp);
 }
 
 .botoes-carrossel .botao.selecionado {
