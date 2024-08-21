@@ -1,0 +1,24 @@
+@media (max-width: 1280px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .imagem {
+        width: 95%;
+        height: 95%;
+    }
+    .botao{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+}
+
+@media (max-width: 768px) {
+    .informacoes.ativa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,150 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(20, 23, 46);
+    background: linear-gradient(0deg, rgba(20, 23, 46, 1) 0%, rgba(27, 30, 62, 1) 18%, rgba(32, 36, 76, 1) 49%, rgba(2, 0, 36, 1) 96%);
+    margin: 0 auto;
+}
+
+.main{
+    height: fit-content;
+}
+.titulo {
+    color: rgb(212, 160, 81);
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px #793702;
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.informacoes {
+    margin-left: 5px;
+    width: fit-content;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.informacoes.ativa {
+    display: block;
+}
+
+.conteudo {
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes h1 {
+    top: 0;
+    background-color: rgba(214, 146, 57, 0.37);
+    box-shadow: #020100;
+    border-bottom: solid 1px #9b6336cc;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(221, 202, 174);
+    margin-bottom: 80px;
+    font-family: "Ubuntu";
+}
+
+.informacoes .descricao {
+    color: silver;
+    margin-left: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 98%;
+    line-height: 27px;
+    height: inherit;
+    overflow: auto;
+    padding-right: 10px;
+    justify-content: space-evenly;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fontes/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+.botoes-carrossel {
+    margin: 33px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes-carrossel .botao {
+    width: 150px;
+    height: 90px;
+    border: 2px solid #683c03;
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: auto;
+    background-size: cover;
+    filter: grayscale(100%);
+
+}
+
+.botoes-carrossel .botao:hover {
+    width: 155px;
+    height: 93px;
+    filter: grayscale(0%);
+}
+
+.botoes-carrossel .base {
+    background-image: url(/src/imagens/Singed_OriginalSkin.webp);
+}
+
+.botoes-carrossel .astronaut {
+    background-image: url(/src/imagens/Singed_AstronautSkin.webp);
+}
+
+.botoes-carrossel .augmented {
+    background-image: url(/src/imagens/Singed_AugmentedSkin.webp);
+}
+
+.botoes-carrossel .beekeeper {
+    background-image: url(/src/imagens/Singed_BeekeeperSkin.webp)
+}
+
+.botoes-carrossel .blackscourge {
+    background-image: url(/src/imagens/Singed_BlackScourgeSkin.webp)
+}
+
+.botoes-carrossel .resistance {
+    background-image: url(/src/imagens/Singed_ResistanceSkin.webp)
+}
+
+.botoes-carrossel .surfer {
+    background-image: url(/src/imagens/Singed_SurferSkin.webp)
+}
+
+.botoes-carrossel .botao.selecionado {
+    filter: grayscale(0%);
+}
+
+.imagem {
+    border-radius: 8px;
+    border: 1px solid #331d01;
+    width: 80%;
+    display: none;
+
+}
+
+.imagem.ativa {
+    display: flex;
+    animation: mudarImagem 0.7s;
+}
+
+@keyframes mudarImagem {
+    from {
+        opacity: 0.85;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
