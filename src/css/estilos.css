@@ -57,8 +57,8 @@ body {
     line-height: 30px;
     font-size: 18px;
     width: 98%;
+    max-height: 590px ;
     line-height: 27px;
-    height: inherit;
     overflow: auto;
     padding-right: 10px;
     justify-content: space-evenly;
@@ -95,31 +95,31 @@ body {
 }
 
 .botoes-carrossel .base {
-    background-image: url(/src/imagens/Singed_OriginalSkin.webp);
+    background-image: url(/src/imagens/ThumbOriginalSkin.webp);
 }
 
 .botoes-carrossel .astronaut {
-    background-image: url(/src/imagens/Singed_AstronautSkin.webp);
+    background-image: url(/src/imagens/ThumbAstronautSkin.webp);
 }
 
 .botoes-carrossel .augmented {
-    background-image: url(/src/imagens/Singed_AugmentedSkin.webp);
+    background-image: url(/src/imagens/ThumbAugmentedSkin.webp);
 }
 
 .botoes-carrossel .beekeeper {
-    background-image: url(/src/imagens/Singed_BeekeeperSkin.webp)
+    background-image: url(/src/imagens/ThumbBeekeeperSkin.webp)
 }
 
 .botoes-carrossel .blackscourge {
-    background-image: url(/src/imagens/Singed_BlackScourgeSkin.webp)
+    background-image: url(/src/imagens/ThumbBlackScourgeSkin.webp)
 }
 
 .botoes-carrossel .resistance {
-    background-image: url(/src/imagens/Singed_ResistanceSkin.webp)
+    background-image: url(/src/imagens/ThumbResistance.webp)
 }
 
 .botoes-carrossel .surfer {
-    background-image: url(/src/imagens/Singed_SurferSkin.webp)
+    background-image: url(/src/imagens/ThumbSurferSkin.webp)
 }
 
 .botoes-carrossel .botao.selecionado {
