@@ -95,31 +95,31 @@ body {
 }
 
 .botoes-carrossel .base {
-    background-image: url(/src/imagens/ThumbOriginalSkin.webp);
+    background-image: url(../imagens/ThumbOriginalSkin.webp);
 }
 
 .botoes-carrossel .astronaut {
-    background-image: url(/src/imagens/ThumbAstronautSkin.webp);
+    background-image: url(../imagens/ThumbAstronautSkin.webp);
 }
 
 .botoes-carrossel .augmented {
-    background-image: url(/src/imagens/ThumbAugmentedSkin.webp);
+    background-image: url(../imagens/ThumbAugmentedSkin.webp);
 }
 
 .botoes-carrossel .beekeeper {
-    background-image: url(/src/imagens/ThumbBeekeeperSkin.webp)
+    background-image: url(../imagens/ThumbBeekeeperSkin.webp)
 }
 
 .botoes-carrossel .blackscourge {
-    background-image: url(/src/imagens/ThumbBlackScourgeSkin.webp)
+    background-image: url(../imagens/ThumbBlackScourgeSkin.webp)
 }
 
 .botoes-carrossel .resistance {
-    background-image: url(/src/imagens/ThumbResistance.webp)
+    background-image: url(../imagens/ThumbResistance.webp)
 }
 
 .botoes-carrossel .surfer {
-    background-image: url(/src/imagens/ThumbSurferSkin.webp)
+    background-image: url(../imagens/ThumbSurferSkin.webp)
 }
 
 .botoes-carrossel .botao.selecionado {
